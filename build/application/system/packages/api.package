@@ -1,0 +1,4 @@
+[
+	'uri'				=> '/api/v(\w+)/(\S+)/(\S+)',
+	'module'			=> 'api/index'
+],

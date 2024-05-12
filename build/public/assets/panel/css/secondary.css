@@ -1,0 +1,162 @@
+main {
+	margin-top: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.crumb {
+	display: flex;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: .5rem;
+	text-transform: uppercase;
+}
+
+.crumb a {
+	color: var(--secondary-text-color);
+}
+
+.navbar-bottom {
+	background: rgba(0,0,0,.07);
+	height: 2.5rem;
+}
+
+.navbar-bottom .container {
+	height: 100%;
+}
+
+.navbar-bottom ul {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.navbar-bottom ul li {
+	margin-right: 12px;
+}
+
+nav img.profile_image {
+	width: 34px;
+	height: 34px;
+	border-radius: 8px;
+}
+
+.navbar-bottom ul,
+.left-menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-bottom ul li,
+.left-menu ul li {
+	list-style-type: none;
+}
+
+.profile_name {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.logotype {
+	width: auto;
+	height: 28px;
+}
+
+html:not([data-bs-theme='dark']) .navbar-bottom {
+	background-color: #ededed;
+}
+
+main.container {
+	width: 100%;
+}
+
+.left-menu ul li a {
+	margin-left: 8px;
+	text-decoration: none;
+	color: #adadad;
+}
+
+.left-menu ul li a:hover {
+	color: #8d8d8d;
+}
+
+html:not([data-bs-theme='dark']) .left-menu ul li a {
+	color: #565656;
+}
+
+html:not([data-bs-theme='dark']) .left-menu ul li a:hover {
+	color: #000;
+}
+
+.left-menu ul li {
+    padding: 8px 8px 8px 14px;
+    border-radius: var(--border-radius);
+}
+
+.left-menu ul li:hover,
+.left-menu ul li.active {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.left-menu ul li.horizontal {
+	padding: 0;
+    margin: 0 18px 0 18px;
+    border-radius: 0;
+}
+
+.left-menu ul li.horizontal hr {
+	margin: 8px 0;
+}
+
+html:not([data-bs-theme='dark']) .left-menu ul li:hover,
+html:not([data-bs-theme='dark']) .left-menu ul li.active {
+	background-color: #e7e7e7;
+}
+
+.card-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.2rem;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+html[data-bs-theme='dark'] .btn-primary,
+html[data-bs-theme='dark'] .btn-outline-primary {
+    --bs-btn-color: #959595;
+    --bs-btn-bg: #1f2226;
+    --bs-btn-border-color: rgb(255, 255, 255, .15);
+    --bs-btn-hover-color: #cbcbcb;
+    --bs-btn-hover-bg: #1a1c20;
+    --bs-btn-hover-border-color: rgb(255, 255, 255, .15);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #d5d5d5;
+    --bs-btn-active-bg: #1a1c20;
+    --bs-btn-active-border-color: rgb(255, 255, 255, .15);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #d5d5d5;
+    --bs-btn-disabled-bg: #2f3134;
+    --bs-btn-disabled-border-color: rgb(255, 255, 255, .15);
+}
+
+.alert {
+	font-size: 12px;
+	color: #858585;
+	text-align: justify;
+}
+
+.alert-left {
+	border-left-style: solid;
+    border-left-width: thick;
+    border-left-color: #28a3c9;
+    margin-bottom: 0;
+}
+
+.dropdown-toggle.dropdown-toggle-split {
+	outline: 0;
+	border: 0;
+}

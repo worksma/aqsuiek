@@ -1,0 +1,64 @@
+#zoomImage .modal-header {
+	border-bottom: 0;
+}
+
+#zoomImage .modal-content {
+	overflow: hidden;
+}
+
+#zoomImage .modal-dialog {
+	max-width: 900px;
+}
+
+#zoomImage .modal-body {
+	display: flex;
+	padding: 0;
+}
+
+#zoomImage .modal-body .Object,
+#zoomImage .modal-body .Info {
+	width: 50%;
+}
+
+#zoomImage .modal-body .Object img {
+    width: 100%;
+    height: 100%;
+}
+
+#zoomImage .btn-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#zoomImage .modal-body .Info .Head {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+	padding: 8px;
+	
+    height: 50px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #f0f0f0;
+	
+	font-size: 14px;
+}
+
+#zoomImage .modal-body .Info .Head img {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	margin-right: 14px;
+}
+
+#zoomImage .modal-body .Info .Comments {
+    display: flex;
+	flex-direction: column;
+	padding: 8px;
+}
+
+#zoomImage .modal-body .Info .Comments .Content {
+	height: 340px;
+	overflow: auto;
+	margin-bottom: 5px;
+}

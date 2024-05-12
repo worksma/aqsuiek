@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import url('scheme.css');
+@import url('keyframes.css');
+@import url('primary.css');
+@import url('/public/plugins/bootstrap/css/bootstrap.css');
+@import url('/public/plugins/bootstrap-icons/css/bootstrap-icons.css');
+@import url('secondary.css');
+@import url('darkmode.css');
+@import url('responsive.css');

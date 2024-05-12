@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+	font-family: 'Montserrat';
+}

@@ -1,0 +1,88 @@
+.d-contents {
+	display: contents !important;
+}
+
+.container {
+	max-width: var(--max-width);
+}
+
+.btn-sm {
+	--bs-btn-font-size: 0.7rem;
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #757575 #EBEBEB;
+}
+
+*::-webkit-scrollbar {
+	width: 10px;
+	height: 0.5rem;
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track:hover,
+*::-webkit-scrollbar-track:active {
+	background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.3);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0,0,0,.5);
+}
+
+*::-webkit-scrollbar-thumb:active {
+	background-color: rgba(0,0,0,.5);
+}
+
+table.table thead {
+	background: #ededed;
+}
+
+table.table tbody tr:hover {
+	background: #f8f8f8;
+}
+
+table.table thead tr td,
+table.table tbody tr td {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-align: center;
+}
+
+table.table tbody tr td:nth-child(3) {
+	text-align: start;
+}
+
+table.table thead tr td:nth-child(1),
+table.table tbody tr td:nth-child(1) {
+	width: 5%;
+}
+
+table.table thead tr td:nth-child(2),
+table.table tbody tr td:nth-child(2) {
+	width: 20%;
+}
+
+table.table thead tr td:nth-child(3),
+table.table tbody tr td:nth-child(3) {
+	width: 50%;
+}
+
+table.table thead tr td:nth-child(4),
+table.table tbody tr td:nth-child(4) {
+	width: 35%;
+}
+
+table.table tbody tr:last-child td {
+	border-bottom: 0;
+}
+
+table.table tbody tr {
+	cursor: pointer;
+}

@@ -1,0 +1,2 @@
+['uri' => '/panel','module' => 'panel/index'],
+['uri' => '/panel/help/tickets','module' => 'panel/help/index'],

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 844px) {
+	nav.navbar {
+		flex-wrap: nowrap;
+	}
+	
+	.left-menu {
+		margin-bottom: 18px;
+	}
+	
+	nav li.profile_name {
+		display: none;
+	}
+	
+	.profile {
+		margin-bottom: 1rem;
+	}
+}

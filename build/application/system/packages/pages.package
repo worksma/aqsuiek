@@ -1,0 +1,101 @@
+[
+	'uri'				=> '/',
+	'module'			=> 'index/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Добро пожаловать',
+	'uri'				=> '/account/auth',
+	'module'			=> 'account/login',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Создание вселенной',
+	'uri'				=> '/account/register',
+	'module'			=> 'account/register',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Восстановление',
+	'uri'				=> '/account/recover(\S+)',
+	'module'			=> 'account/recovery',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Редактирование профиля',
+	'uri'				=> '/account/setting(\S+)',
+	'module'			=> 'account/settings',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Выход',
+	'uri'				=> '/account/logout',
+	'module'			=> 'account/logout',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/id(\d+)',
+	'module'			=> 'account/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Глобальный поток',
+	'uri'				=> '/flow',
+	'module'			=> 'index/flow',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/write-(\d+)_(\d+)',
+	'module'			=> 'write/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Блоги',
+	'uri'				=> '/blogs',
+	'module'			=> 'blog/list',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/blog(\d+)',
+	'module'			=> 'blog/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/blog-(\d+)_(\d+)',
+	'module'			=> 'blog/post',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Подписки',
+	'uri'				=> '/subscription(\S+)',
+	'module'			=> 'subscriptions/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/message(\S+)',
+	'name'				=> 'Мессенджер',
+	'module'			=> 'messages/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/searc(\S+)',
+	'name'				=> 'Поиск',
+	'module'			=> 'search/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/help',
+	'name'				=> 'Помощь',
+	'module'			=> 'help/index',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'uri'				=> '/help/request/id(\d+)',
+	'module'			=> 'help/request',
+	'image'				=> '/public/images/other/meta.jpg'
+],
+[
+	'name'				=> 'Музыка',
+	'uri'				=> '/music',
+	'module'			=> 'music/index'
+]

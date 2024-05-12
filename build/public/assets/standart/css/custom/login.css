@@ -1,0 +1,107 @@
+body {
+	background: #fff;
+}
+
+main {
+	margin: 0;
+	height: 100vh;
+}
+
+main .panel,
+main .panel .left,
+main .panel .right {
+	height: 100%;
+}
+
+main .panel {
+	display: flex;
+}
+
+main .panel .left {
+	width: 40%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .panel .left .content {
+	width: 70%;
+}
+
+main .panel .left .content .recovery {
+	display: flex;
+	justify-content: start;
+}
+
+main .panel .left .content .register {
+	display: flex;
+	justify-content: end;
+}
+
+main .panel .left .content .brand {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	height: 84px;
+	margin-bottom: 24px;
+}
+
+main .panel .left .content .brand,
+main .panel .left .content .brand:hover {
+	color: #000;
+}
+
+main .panel .left .content .brand hr.vertical {
+	height: 42px;
+}
+
+main .panel .left .content .brand .text p {
+	margin: 0;
+	font-size: 18px;
+    font-weight: 600;
+}
+
+main .panel .left .content .brand img {
+	width: auto;
+	height: 52px;
+}
+
+main .panel .right {
+	width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background: linear-gradient(to top right, #ffffff, #fdf2e9);
+}
+
+main .panel .right .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .panel .right .content img {
+	pointer-events: none;
+	animation: spin 3s infinite linear;
+	width: 512px;
+	height: 481px;
+}
+
+@media only screen and (max-width: 1400px) {
+	main .panel .left .content .row {
+		flex-direction: column;
+	}
+	
+	main .panel .left .content .row .recovery,
+	main .panel .left .content .row .register {
+		justify-content: center;
+	}
+	
+	main .panel .left .content .row .recovery {
+		margin-bottom: 10px;
+	}
+}

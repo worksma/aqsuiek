@@ -1,0 +1,14 @@
+:root {
+	--background-header: #fff;
+	--background-body: #faf9f7;
+	--background-block: #fff;
+	
+	--color-primary: #1f2428;
+	--color-brand: #D6B56E;
+	--color-brand-hover: #b6903e;
+	
+	--border-primary: solid 1px #ededed;
+	--border-radius: 15px;
+	
+	--padding-block: 24px 18px 24px 18px;
+}
